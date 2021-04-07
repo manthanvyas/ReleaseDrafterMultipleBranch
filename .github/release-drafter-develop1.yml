@@ -1,7 +1,7 @@
 name-template: 'Draft for main'
 tag-template: 'Draft for main'
 filter-by-commitish: true
-commitish: develop8.1
+commitish: develop1
 version-template: 'Draft for main'
 categories:
   - title: '🚀 Features'
