@@ -1,7 +1,8 @@
 name-template: 'Draft'
 tag-template: 'Draft'
 filter-by-commitish: true
-commitish: ${{ github.ref }}
+commitish: 
+run: | write-host ${{ github.ref }}
 version-template: 'Draft'
 categories:
   - title: '🚀 Features'
