@@ -1,3 +1,1 @@
 # ReleaseDrafterMultipleBranch
-
-Update1
