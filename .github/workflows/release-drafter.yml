@@ -25,7 +25,7 @@ jobs:
           write-host ${{ steps.extract_branch.outputs.branch }}
         shell: pwsh
         
-      - name: Drafts your next Release notes as Pull Requests are merged into ${{ steps.extract_branch.outputs.branch }}
+      - name: Drafts your next Release notes as Pull Requests are merged into ${GITHUB_REF#refs/heads/}
         uses: release-drafter/release-drafter@v5
         with:
           config-name: ${{ steps.extract_branch.outputs.branch }} # located in .github/ in default branch
